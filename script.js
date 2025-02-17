@@ -13,19 +13,19 @@ const photoItems = [
         letter: 'Having you was amazing. Your smile lit up the entire room, and I knew right then that you were special.'
     },
     {
-        image: 'media/P-img2.jpg',
+        image: 'P-img2.jpg',
         letter: 'Remember that day at Forever Cafe? The Food was amazing same as you.'
     },
     {
-        image: 'media/P-img3.jpg',
+        image: 'P-img3.jpg',
         letter: "I'm spending Christmas with you for the first time."
     },
     {
-        image: 'media/P-img4.jpg',
+        image: 'P-img4.jpg',
         letter: 'A simple Date for the two of us is the best.'
     },
     {
-        image: 'media/P-img5.jpg',
+        image: 'P-img5.jpg',
         letter: 'You support me in every game that I play.'
     },
     {
@@ -34,7 +34,6 @@ const photoItems = [
     }
 ];
 
-// Function to populate photo grid
 function createPhotoItems() {
     const photoGrid = document.getElementById('photo-grid');
     photoItems.forEach(item => {
@@ -50,7 +49,6 @@ function createPhotoItems() {
     });
 }
 
-// Initialize the website
 document.addEventListener('DOMContentLoaded', () => {
     createPhotoItems();
 });
