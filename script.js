@@ -29,7 +29,7 @@ const photoItems = [
         letter: 'You support me in every game that I play.'
     },
     {
-        image: 'media/P-img6.jpg',
+        image: 'P-img6.jpg',
         letter: 'Our coffee dates are perfect.'
     }
 ];
