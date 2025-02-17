@@ -1,4 +1,3 @@
-// Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -8,10 +7,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Photo items data
 const photoItems = [
     {
-        image: 'media/P-img1.jpg',
+        image: 'P-img1.jpg',
         letter: 'Having you was amazing. Your smile lit up the entire room, and I knew right then that you were special.'
     },
     {
